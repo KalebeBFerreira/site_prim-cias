@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(26, 131, 108);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+}
+
+.menu .opcoes {
+    display: flex;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu .opcoes li a {
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.menu .opcoes li a:hover {
+    background-color: rgba(94, 92, 92, 0.493);
+}
+
+.aba{
+    
+}
